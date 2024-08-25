@@ -1,0 +1,268 @@
+#about_sec{
+    background: #FAF8F8;
+}
+.about_qua{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+}
+.abt_images{
+    width: 35%;
+}
+.abt_images{
+    position: relative;
+}
+.abt_img_1{
+    width: 100%;
+}
+.abt_images_2{
+    width: 30%;
+}
+.abt_float_img{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: -40%;
+}
+.abt_card_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.abt_card{
+    width: 350px;
+    flex-grow: 1;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.abt_card img{
+    width: 100%;
+}
+.abt_card_txt{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 40px 50px;
+}
+.abt_card_txt h5{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.abt_card_txt p{
+    font-size: 22px;
+    color: #999;
+}
+.abt_read .abt_read_txt{
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.abt_read span i{
+    padding: 10px 12px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 50%;
+}
+.abt_read .abt_read_txt span{
+    font-size: 0;
+}
+.abt_read .abt_read_txt:hover .rd{
+    font-size: 22px;
+    transition: 0.3s;
+}
+#meet_ins{
+    background: #FAF8F8;
+}
+.all_head_2 h6, .all_head_2 h1{
+    text-align: left !important;
+}
+.all_head_2 p{
+    font-size: 24px;
+    color: #999;
+}
+.abt_card_txt_2{
+    text-align: start !important;
+}
+.horse_btn{
+    background: #893A22;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 60px;
+    margin-top: 30px;
+}
+.horse_farm h6{
+    margin-bottom: 10px;
+}
+.horse_farm{
+    color: #fff;
+}
+/* .testi_main{
+    padding: 30px 20px;
+} */
+.testi__sub{
+    width: 360px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    padding: 50px 30px 40px !important;
+    flex-grow: 1;
+}
+.testi_icons{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.testi_txt p{
+    font-size: 22px;
+    color: #999;
+    margin-bottom: 60px;
+    height: 150px;
+}
+.testi_txt h4{
+    font-size: 22px;
+}
+.testi_txt span{
+    font-size: 20px;
+    font-weight: 100;
+}
+#testimonials{
+    background: #FAF8F8;
+}
+/* .sub_main{
+    gap: 5%;
+} */
+.sub_head{
+    width: 50%;
+}
+.sub_head h1{
+    font-size: 64px;
+}
+.sub_side{
+    width: 50%;
+}
+.sub_inp {
+    width: 100%;
+}
+.sub_inp .long_inp{
+    font-size: 22px;
+    color: #999;
+    height: 60px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.inp_check{
+    width: 15px;
+    height: 15px;
+    margin-top: 20px;
+    margin-top: -10px;
+}
+.sub_inp  p{
+    margin-top: 5px;
+    color: #999;
+}
+
+@media(max-width:1400px){
+    .testi_txt p{
+        height: 270px;
+
+    }
+    
+}
+@media(max-width:1060px){
+    .about_qua{
+        flex-wrap: wrap;
+    }
+    .abt_images{
+        width: 100%;
+    }
+    .abt_images_2{
+        display: none;
+    }
+    .abt_qua1{
+        margin-bottom: 30px;
+    }
+    .abt_card_main{
+        flex-wrap: wrap;
+    }
+    .abt_card_txt h5{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .abt_card_txt p{
+        font-size: 20px;
+        color: #999;
+    }
+    .abt_read .abt_read_txt:hover .rd{
+        font-size: 20px;
+        transition: 0.3s;
+    }
+    .all_head_2 p{
+        font-size: 24px;
+        color: #999;
+        margin-top: 25px;
+        font-size: 18px;
+    }
+    .horse_btn{
+        background: #893A22;
+        color: #fff;
+        font-size: 18px;
+        padding: 10px 40px;
+        margin-top: 40px;
+    }
+    .testi_main{
+        flex-wrap: wrap;
+    }
+    .testi_txt p{
+        height: auto;
+    }
+    .testi_txt h4{
+        font-size: 22px;
+    }
+    .testi_txt span{
+        font-size: 18px !important;
+    }
+    .sub_main{
+        flex-wrap: wrap;
+    }
+    .sub_head{
+        width: 100%;
+    }
+    .sub_head{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    .sub_head h1{
+        font-size: 32px;
+    }
+    .sub_side{
+        width: 100%;
+    }
+    .sub_inp{
+        margin-top: 10px;
+    }
+
+}
+@media(max-width:500px){
+    .sub_inp_main{
+        flex-wrap: wrap;
+    }
+    .sub_btn_main{
+        margin-top: -40px;
+    }
+}
+/* .abt_images_2{
+    position: relative;
+} */
+/* .play_btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: yellow;
+    z-index: 3;
+    font-size: 60px;
+} */
